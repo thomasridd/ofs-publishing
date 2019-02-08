@@ -1,0 +1,26 @@
+---
+label: advice
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Page title
+  name: page_title
+  default: My page
+- type: textarea
+  name: introduction
+  label: Introduction
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: field_group_list
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: Content
+  label: Paragraphs
+  name: paragraphs
