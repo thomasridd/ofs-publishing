@@ -24,3 +24,5 @@ fields:
     label: Content
   label: Paragraphs
   name: paragraphs
+pages:
+- content/outcomes-advice.md
